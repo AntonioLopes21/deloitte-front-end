@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+
+}
+
+form, .resposta {
+    color: white;
+    background-color: brown;
+    border: 1px solid ;
+    display: flex;
+    flex-direction: column;
+    padding:3%;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border-radius: .5rem;
+    width: 400px;
+}
+
+.resposta {
+    background-image: url("../images/LOADING.gif") !important;
+    z-index: 1;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: auto;
+
+}
+
+.formulario_e_resposta {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+
+#campo_nome, #campo_email {
+    background-image: url('../images/R.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.btn_filho {
+    transition: 1s;
+    width: 150px;
+    height: 30px;
+    border: 5px solid red;
+    border-radius: 1rem;
+    font-size: 11px;
+    font-weight: 500px;
+    background-color: red;
+    color: wheat;
+}
+
+.btn_filho:hover {
+    background-color: green;
+    border: green; 
+}

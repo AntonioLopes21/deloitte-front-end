@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página web</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <!-- <nav class="navbar">
+            <li>Home</li>
+            <li>searchs</li>
+            <li>Contacts</li>
+        </nav> -->
+    </header>
+
+    <body>
+        <div class="formulario_e_resposta">
+
+
+            <form>
+                <label for="campo_nome">Digite o seu nome:</label>
+                <input type="text" name="" id="campo_nome" placeholder="seu nome">
+
+                <label for="campo_email">Digite seu email:</label>
+                <input type="email" placeholder="seu email" id="campo_email">
+
+                <button type="submit" class="btn_filho" onclick="cadastroBtn()">Cadastrar</button>
+
+            </form>
+
+
+            <div class="resposta">
+                <h3>Nome:</h3>
+                <h4 class="nome_resposta"></h4>
+                <h3>Email:</h3>
+                <h4 class="email_resposta"></h4>
+            </div>
+        </div>
+    </body>
+
+    <script src="script/script.js"></script>
+</body>
+
+</html>
