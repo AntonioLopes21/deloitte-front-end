@@ -22,12 +22,20 @@ form, .resposta {
 }
 
 .resposta {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
     background-image: url("../images/LOADING.gif") !important;
     z-index: 1;
     background-position: center;
     background-repeat: no-repeat;
     height: auto;
 
+}
+
+.resposta_esquerda, .resposta_direita {
+    border: 2px solid white;
+    border-radius: 1rem;
 }
 
 .formulario_e_resposta {

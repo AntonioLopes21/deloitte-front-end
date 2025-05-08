@@ -17,32 +17,33 @@
         </nav> -->
     </header>
 
-    <body>
-        <div class="formulario_e_resposta">
+
+    <div class="formulario_e_resposta">
 
 
-            <form>
-                <label for="campo_nome">Digite o seu nome:</label>
-                <input type="text" name="" id="campo_nome" placeholder="seu nome">
+        <form>
+            <label for="campo_nome">Digite o seu nome:</label>
+            <input type="text" name="" id="campo_nome" placeholder="seu nome">
 
-                <label for="campo_email">Digite seu email:</label>
-                <input type="email" placeholder="seu email" id="campo_email">
+            <label for="campo_email">Digite seu email:</label>
+            <input type="email" placeholder="seu email" id="campo_email">
 
-                <button type="submit" class="btn_filho" onclick="cadastroBtn()">Cadastrar</button>
+            <button type="submit" class="btn_filho" onclick="cadastroBtn()">Cadastrar</button>
 
-            </form>
+        </form>
 
 
-            <div class="resposta">
+        <div class="resposta">
+            <div class="resposta_esquerda">
                 <h3>Nome:</h3>
                 <h4 class="nome_resposta"></h4>
+            </div>
+
+            <div class="resposta_esquerda">
                 <h3>Email:</h3>
                 <h4 class="email_resposta"></h4>
             </div>
         </div>
-    </body>
 
-    <script src="script/script.js"></script>
+        <script src="script/script.js" defer></script>
 </body>
-
-</html>

@@ -5,16 +5,19 @@ let respostaCampoEmail = document.querySelector('.email_resposta')
 let campoResposta = document.querySelector('.resposta')
 function cadastroBtn() {
     event.preventDefault();
+
+    const listaCadastrosNomes = [];
+    const listaCadastroEmails = [];
+
     console.log("cadastrando...")
     console.log(campoNome.value)
     console.log(campoEmail.value)
     respostaCampoNome.innerHTML = `${campoNome.value}`
     respostaCampoEmail.innerHTML = `${campoEmail.value}`
 
-    campoResposta = `<h3>Nome:</h3>
-                <h4 class="nome_resposta"></h4>\n
-                <h3>Email:</h3>
-                <h4 class="email_resposta"></h4>`
+    //futura implementação de lista
+    //listaCadastrosNomes.push(campoNome.value)
+    //listaCadastroEmails.push(campoEmail.value)
 }
 
 function verificarCampo() {
@@ -22,3 +25,4 @@ function verificarCampo() {
 
     }
 }
+
